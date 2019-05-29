@@ -2,7 +2,7 @@
 
 This project was developed in the below setup and expected to be executed in the same,
 
-node version = 10.15.3 
+node version = 10.15.3 <br>
 npm version = 6.4.1
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
