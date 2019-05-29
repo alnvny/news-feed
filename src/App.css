@@ -1,0 +1,51 @@
+.data-list{
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  
+}
+.article{
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 17fr;
+  grid-template-areas: 
+  "image article" 
+  "image author"
+  "date date"
+  ;
+  flex: 1;
+}
+
+.author{
+  grid-area: author;
+  font-size: 12px;
+}
+.articleImage{
+grid-area: image;
+grid-row: span 2;
+border-radius:5px;
+height:75px;
+width: 75px;
+margin-right: 10px;
+}
+.test{
+  grid-area: article;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 16px;     /* fallback */
+  max-height: 34px;      /* fallback */
+  /* autoprefixer: off */
+-webkit-box-orient: vertical;
+/* autoprefixer: on */
+  -webkit-line-clamp: 2; /* number of lines to show */
+  font-weight: 500;
+}
+.date{
+  float: right;
+}
+.link{
+  text-decoration: none;
+  cursor: pointer;
+  color:dodgerblue;
+}

@@ -1,0 +1,8 @@
+{
+    "api":"https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/",
+    "api_token":"5OfU1V27kPaspqbcbxlZwWx3LtAHbhmL&fbclid=IwAR07FuT_NsY3tM2MKvejaWZDx_a02--dCutN19yyPtcVk9hd3QnCY92hr10",
+    "range":[{"name":"Daily News","value":1},
+             {"name":"Weekly News","value":7},
+             {"name":"Monthly News","value":30}]
+}  
+ 
