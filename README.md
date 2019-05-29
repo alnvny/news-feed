@@ -7,6 +7,14 @@ npm version = 6.4.1
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Making it ready
+
+1. Clone the application using the commad "git clone https://github.com/alnvny/news-feed.git" in the command prompt<br>
+2. go to the project folder by "cd news-feed command"<br>
+3. now execute "npm i" to install the required node modules.<br>
+4. now run the application using "npm start".<br>
+5. execute "npm test" to run the unit test and ckeck the code coverage.
+
 ## Available Scripts
 
 In the project directory, you can run:
